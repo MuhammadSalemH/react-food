@@ -1,0 +1,22 @@
+.nav {
+  flex: 1;
+}
+
+.nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav li {
+  padding-inline: 0.5rem;
+}
+
+.button {
+  background-color: var(--white);
+  color: var(--main-color);
+  padding: 0.5rem;
+  min-width: 5rem;
+}

@@ -1,0 +1,18 @@
+.info {
+  position: relative;
+  top: -180px;
+  text-align: center;
+  min-height: 20rem;
+  padding: 2rem;
+  margin: 50px auto 0;
+}
+
+.info h2 {
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+}
+
+.info p {
+  color: var(--white);
+  margin-bottom: 1rem;
+}

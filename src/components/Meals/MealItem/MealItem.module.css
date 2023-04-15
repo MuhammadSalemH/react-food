@@ -1,0 +1,53 @@
+.meal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.meal-item:not(:last-child) {
+  border-bottom: 2px solid var(--grey);
+}
+
+.descreption span {
+  display: block;
+  color: var(--white);
+}
+
+.descreption span:nth-child(1) {
+  font-weight: 700;
+}
+.descreption span:nth-child(2) {
+  font-style: italic;
+}
+.descreption span:nth-child(3) {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.form {
+  text-align: right;
+}
+
+.control {
+  display: flex;
+  max-width: 200px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.control input {
+  width: 35%;
+  padding: 0.5rem;
+}
+
+.control label {
+  color: var(--white);
+}
+
+.button {
+  min-width: 10rem;
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+}

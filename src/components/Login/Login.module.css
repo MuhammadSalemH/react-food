@@ -1,0 +1,60 @@
+.form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--main-color);
+  width: fit-content;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30rem;
+  border-radius: 1rem;
+}
+.controls {
+  width: 100%;
+  color: #fff;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.controls label {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.controls input {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  border: 2px solid var(--white);
+}
+
+.controls input:focus {
+  outline: none;
+}
+
+.controls.invalid input {
+  border-color: salmon;
+  background-color: salmon;
+}
+
+.controls.invalid input:focus {
+  border-color: salmon;
+  background-color: rgb(252, 203, 198);
+}
+
+.controls p {
+  color: salmon;
+  font-size: 1.4rem;
+}
+
+.actions {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.button {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--white);
+  padding: 0.75rem;
+  min-width: 10rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  transition: ease 0.2s;
+}
